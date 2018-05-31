@@ -12,6 +12,9 @@
   justify-content: space-between;
 }
 
+.top-header .header__bottom .header__column:first-child {
+  color: rgba(255, 255, 255, 0.5);
+}
 .top-header .header__top {
   font-size: 12px;
   margin-bottom: 15px;

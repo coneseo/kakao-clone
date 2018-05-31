@@ -13,6 +13,7 @@
   align-items: center;
   flex-direction: column;
   text-decoration: none;
+  color: #c1c1c1;
 }
 
 .tab-bar .tab-bar__tab i {
@@ -20,9 +21,8 @@
   margin-bottom: 5px;
   text-align: center;
   font-size: 24px;
-  color: #c1c1c1;
 }
-.tab-bar .tab-bar__tab--selected i {
+.tab-bar .tab-bar__tab--selected {
   color: #523737;
 }
 
