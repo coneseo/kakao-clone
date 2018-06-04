@@ -10,11 +10,17 @@
   text-align: center;
   background-color: #f1f2f3;
   border: 0;
+  border: 1px solid transparent;
   border-radius: 5px;
   font-size: 13px;
   outline-style: none;
+  transition: border 0.2s linear;
 }
 
+.search-bar input:focus {
+  outline: none;
+  border: 1px solid #ffe94a;
+}
 .search-bar i {
   position: absolute;
   top: 15px;
